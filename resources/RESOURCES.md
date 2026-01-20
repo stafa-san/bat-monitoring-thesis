@@ -6,24 +6,66 @@ Curated collection of papers, tutorials, tools, and references for the thesis pr
 
 ## Academic Papers
 
-### Core References
+### Core Infrastructure Reference
 
-| Paper | Authors | Year | Topic | Link/DOI |
-|-------|---------|------|-------|----------|
-| HTTP/3 Containerized Deployments | Koch & Thomas | 2025 | Edge computing, HTTP/3 | TBD |
-| Audio Spectrogram Transformers Beyond the Lab | - | - | ML for acoustic classification | TBD |
+| Paper | Authors | Year | Topic | Notes |
+|-------|---------|------|-------|-------|
+| Using HTTP/3 and containerized local cloud deployments to optimize smart home system performance | Koch & Thomas | 2025 | Edge computing, HTTP/3, K3S | **Foundation for edge platform setup** |
 
-### Bat Monitoring & Bioacoustics
+### Bat Ecology & Conservation
 
-| Paper | Authors | Year | Topic | Link/DOI |
-|-------|---------|------|-------|----------|
-| *Add papers here* | | | | |
+| Paper | Authors | Year | Topic |
+|-------|---------|------|-------|
+| Economic Importance of Bats in Agriculture | Boyles et al. | 2011 | Ecosystem services ($23B annually) |
+| The scope and severity of white-nose syndrome on hibernating bats in North America | Cheng et al. | 2021 | Bat population decline |
+| Carpe noctem: the importance of bats as bioindicators | Jones et al. | 2009 | Bats as ecosystem indicators |
+| Comparing occupancy and activity metrics for assessing temporal trends in vulnerable bat populations | Goodwin et al. | 2024 | Activity vs occupancy metrics |
+| Acoustic monitoring yields informative bat population density estimates | Hoggatt et al. | 2024 | Density estimation methods |
+| Using mobile acoustic monitoring and false-positive N-mixture models | Udell et al. | 2024 | Population trend estimation |
+| A plan for the North American bat monitoring program (NABat) | Loeb et al. | 2015 | NABat framework |
+
+### Acoustic Monitoring & Bioacoustics
+
+| Paper | Authors | Year | Topic |
+|-------|---------|------|-------|
+| AudioMoth: A low-cost acoustic device for monitoring biodiversity | Hill et al. | 2019 | AudioMoth device |
+| Bat detective: Deep learning tools for bat acoustic signal detection | Mac Aodha et al. | 2018 | ML for bat detection |
+| Shazam for bats: IoT for continuous real-time biodiversity monitoring | Gallacher et al. | 2021 | Real-time bat monitoring |
+| Real-time bioacoustic monitoring in tropical forests using edge computing | Whytock et al. | 2021 | Edge-based bioacoustics |
+| Real-time bioacoustics monitoring and automated species identification | Aide et al. | 2013 | Automated species ID |
+| Weather conditions determine attenuation and speed of sound | Goerlitz | 2018 | Environmental effects on acoustics |
+
+### Environmental Factors & Multi-sensor
+
+| Paper | Authors | Year | Topic |
+|-------|---------|------|-------|
+| Environmental drivers of bat activity patterns: A multi-sensor approach | Plaza-Morlote et al. | 2023 | Multi-sensor bat monitoring |
+| Timing and weather offer alternative mitigation strategies | Squires et al. | 2021 | Weather effects on bat activity |
+| Environmental sensor reliability in long-term ecological monitoring | Zhang et al. | 2020 | Sensor reliability review |
+| Robust, real-time and autonomous monitoring of ecosystems | Sethi et al. | 2018 | Low-cost networked monitoring |
 
 ### Edge Computing & IoT
 
-| Paper | Authors | Year | Topic | Link/DOI |
-|-------|---------|------|-------|----------|
-| *Add papers here* | | | | |
+| Paper | Authors | Year | Topic |
+|-------|---------|------|-------|
+| Edge computing for ecological monitoring: Design challenges and solutions | Hong et al. | 2019 | Edge computing for ecology |
+| Wireless sensor networks for ecology | Porter et al. | 2005 | WSN fundamentals |
+| Time synchronization in wireless sensor networks: A survey | Liu et al. | 2019 | Time sync challenges |
+| Terrestrial animal tracking as an eye on life and planet | Kays et al. | 2011 | Animal tracking tech |
+
+### Citizen Science & Conservation Tech
+
+| Paper | Authors | Year | Topic |
+|-------|---------|------|-------|
+| Next steps for citizen science | Bonney et al. | 2014 | Citizen science methodology |
+| Digital technology and the conservation of nature | Arts et al. | 2015 | Tech for conservation |
+| Technological advances in biodiversity monitoring | Stephenson | 2019 | Biodiversity tech review |
+
+### Methodology
+
+| Paper | Authors | Year | Topic |
+|-------|---------|------|-------|
+| The PRISMA 2020 statement: an updated guideline for reporting systematic reviews | Page et al. | 2021 | SLR methodology |
 
 ---
 

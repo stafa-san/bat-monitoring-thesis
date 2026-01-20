@@ -21,10 +21,12 @@
 
 | Period | Phase | Status |
 |--------|-------|--------|
-| Oct 2025 - Nov 2025 | Phase 1: Literature Review & System Design | Completed |
+| Oct 2025 - Nov 2025 | Phase 1: Literature Review & System Design | Deferred |
 | Nov 2025 - Jan 2026 | Phase 2: Platform Development & Integration | **CURRENT** |
 | Feb 2026 - Apr 2026 | Phase 3: Field Testing & Data Collection | Pending |
 | Apr 2026 - May 2026 | Phase 4: Analysis, Writing, & Defense | Pending |
+
+> **Note:** Phase 1 (Literature Review) was deferred to run in parallel with platform development.
 
 ---
 
@@ -73,16 +75,19 @@ bat-monitoring-thesis/
 
 ## Technology Stack
 
-| Component | Technology | Purpose |
-|-----------|------------|---------|
-| Edge Computing | Raspberry Pi 4B (8GB) | Processing node |
-| Orchestration | K3S (Kubernetes) | Container management |
-| Protocol | HTTP/3 + Nginx | Optimized data transmission |
-| Acoustic Sensor | AudioMoth Dev | Bat echolocation capture |
-| Environmental | DHT22, TSL2591, etc. | Temperature, humidity, light |
-| ML Framework | Audio Spectrogram Transformer | Sound classification |
-| Database | PostgreSQL | Data storage |
-| Monitoring | Home Assistant | Device management |
+| Component | Technology | Purpose | Status |
+|-----------|------------|---------|--------|
+| Edge Computing | Raspberry Pi 5 | Processing node | Acquired |
+| Orchestration | K3S (Kubernetes) | Container management | Setup in progress |
+| Protocol | HTTP/3 + Nginx | Optimized data transmission | Planned |
+| Acoustic Sensor | AudioMoth | Bat echolocation capture | Acquired |
+| Environmental | DHT22, TSL2591, etc. | Temperature, humidity, light | Planned (optional) |
+| ML Framework | Audio Spectrogram Transformer | Sound classification | Research phase |
+| Database | PostgreSQL | Data storage | Planned |
+| IoT Platform | Home Assistant | Device management | Optional |
+| Enclosure | 3D Printed Case | Field deployment housing | Learning in progress |
+
+> **Infrastructure foundation:** Based on Koch & Thomas (2025) S.M.A.R.T. cluster architecture using HTTP/3 containerized deployments.
 
 ---
 
@@ -102,11 +107,15 @@ This research will quantify:
 | Milestone | Status | Date |
 |-----------|--------|------|
 | Thesis Proposal Approved | Completed | Oct 2025 |
-| Hardware Acquired | Completed | Jan 2026 |
+| Literature Review | Deferred | - |
+| Hardware Acquired (Pi 5, AudioMoth) | Completed | Jan 2026 |
 | Raspberry Pi OS Installed | Completed | Jan 2026 |
-| K3S Cluster Setup | In Progress | - |
+| K3S / Docker Setup | In Progress | - |
+| HTTP/3 + Nginx Configuration | Pending | - |
 | AudioMoth Integration | Pending | - |
+| Environmental Sensors (Optional) | Pending | - |
 | Sensor Fusion Pipeline | Pending | - |
+| 3D Printed Enclosure | Learning | - |
 | Field Deployment | Pending | - |
 
 ---
