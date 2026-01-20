@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: WILDLABS Community
+    url: https://wildlabs.net/
+    about: Connect with the conservation technology community
+  - name: Open Acoustic Devices Forum
+    url: https://www.openacousticdevices.info/support
+    about: Get help with AudioMoth
