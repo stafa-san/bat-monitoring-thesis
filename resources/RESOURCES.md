@@ -91,7 +91,7 @@ Curated collection of papers, tutorials, tools, and references for the thesis pr
 
 | Tool | Purpose | Documentation |
 |------|---------|---------------|
-| Audio Spectrogram Transformer | Sound classification | TBD |
+| Audio Spectrogram Transformer | Sound classification | [Beyond the Lab (Medium)](https://medium.com/@maciej.adamiak/audio-spectrogram-transformers-beyond-the-lab-1be80a0b1ce4) |
 | PyTorch | ML framework | [pytorch.org](https://pytorch.org/) |
 
 ---
